@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-5</title>
+    <style>
+      body {
+        color: purple;
+      }
+      .heading {
+        color: rgb(108, 34, 82);
+        padding-left: 200px;
+      }
+      .para {
+        padding-left: 200px;
+      }
+      hr {
+        border-top: 2px dotted;
+        height: 2px;
+        width: 50%;
+      }
+      #nav a {
+        position: absolute;
+        left: 20px;
+        transition: 0.3s;
+        padding: 4px;
+        width: 120px;
+        text-decoration: none;
+        font-size: 18px;
+        background-color: white;
+        color: blue;
+        border-right: 18px solid black;
+      }
+
+      #nav a:hover {
+        width: 1px;
+        white-space: nowrap;
+        background-color: rgb(0, 0, 0);
+        border-right: 137px solid black;
+        color: white;
+      }
+
+      #nav a.active {
+        color: purple;
+      }
+
+      #nav a.active:hover {
+        color: white;
+      }
+      #hmpg {
+        top: 40px;
+      }
+
+      #mus {
+        top: 77px;
+      }
+
+      #mytwn {
+        top: 114px;
+      }
+
+      #lnks {
+        top: 151px;
+      }
+    </style>
+  </head>
+  <div id="nav">
+    <a
+      class="active"
+      id="hmpg"
+      href="https://anandmisra.github.io/ethnus-internship/"
+      >Home page</a
+    >
+    <a id="mus" href="https://www.google.com/search?q=musings">Musings</a>
+    <a id="mytwn" href="https://en.wikipedia.org/wiki/Vadodara">My town</a>
+    <a id="lnks" href="https://www.linkedin.com/in/anandmisra11">Links</a>
+  </div>
+  <body style="background-color: rgb(236, 236, 107)">
+    <h1 class="heading">My first styled page</h1>
+    <p class="para">welcome to my styled page!</p>
+    <p class="para">
+      It lacks image,but at least it has style. And it has links,even if they
+      dont go anywhere...
+    </p>
+    <hr />
+    <address style="color: purple">
+      <p class="para">Made 5 April 2004</p>
+      <p class="para">by myself</p>
+    </address>
+  </body>
+</html>
